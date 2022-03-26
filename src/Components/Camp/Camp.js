@@ -11,7 +11,7 @@ const Camp = (props) => {
     }
 
     const selectRandom = () => {
-    
+        console.log(parseInt(Math.random()*13))
     }
     return (
         <div className="doctors-camp">
