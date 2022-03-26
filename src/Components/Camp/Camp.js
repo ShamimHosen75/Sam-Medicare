@@ -3,7 +3,7 @@ import './camp.css';
 
 const Camp = (props) => {
     const camps = props.camp;
-    console.log(camps)
+    // console.log(camps)
     const campList = [];
     // create a new array using for loop.
     for(const camp of camps){
@@ -11,7 +11,12 @@ const Camp = (props) => {
     }
 
     const selectRandom = () => {
-        console.log(parseInt(Math.random()*13))
+        const randomNum = parseInt(Math.random()*13);
+        console.log(randomNum)
+        const selectedItem = camps.find(item => {
+            console.log(item);
+        })
+        // console.log(selectedItem);
     }
     return (
         <div className="doctors-camp">
