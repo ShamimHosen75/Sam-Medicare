@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Sun Sep 26 2021 14:49:31 GMT+0600 (Bangladesh Standard Time)
+------------------------------------------------------
+
+Modified files:
+* public/data.json
+
+
+Created files:
+* .autogit/logs/log-26-8-2021-14-19-13.txt
+
+
+Deleted files:
+
+
+Renamed files:

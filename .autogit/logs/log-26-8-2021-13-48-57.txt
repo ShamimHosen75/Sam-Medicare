@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Sun Sep 26 2021 13:48:57 GMT+0600 (Bangladesh Standard Time)
+------------------------------------------------------
+
+Modified files:
+* public/data.json
+* public/images/logo.png
+* public/index.html
+* src/Components/Fruit/Fruit.css
+
+
+Created files:
+* .autogit/logs/log-26-8-2021-13-18-35.txt
+
+
+Deleted files:
+* public/images/favicon.png
+
+
+Renamed files:

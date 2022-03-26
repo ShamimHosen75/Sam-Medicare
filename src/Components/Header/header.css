@@ -1,0 +1,62 @@
+/* Header style sheet */
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+    border-bottom: 1px solid #d3d3d340;
+}
+
+/* logo styleSheet start */
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    margin-right: 8px;
+}
+.logo p {
+    font-weight: 500;
+}
+
+.logo h2 {
+    font-size: 32px;
+    margin-bottom: -8px;
+    color: #5c9963;
+}
+/* logo styleSheet end */
+
+/* navber StyleSheet Start */
+.navbar ul{
+    display: flex;
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #333;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar ul li a:hover{
+    color: #528959;
+}
+#active{
+    color: #528959;
+}
+/* navber StyleSheet End */
+
+/* budget area stylesheet start */
+.budget-area{
+    display: flex;
+    align-items: center;
+}
+.budget-area img{
+    width: 40px;
+    margin: 0 10px;
+}
+/* budget area stylesheet end */

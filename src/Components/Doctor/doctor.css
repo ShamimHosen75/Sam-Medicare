@@ -1,0 +1,83 @@
+/* doctor card styleSheet */
+.doctor{
+    padding: 16px;
+    border-radius: 20px;
+}
+.doctor:hover{
+    box-shadow: 0 0 24px rgb(0 0 0 / 10%);
+}
+.doctor-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.doctor-img img{
+    width: 100%;
+    filter: brightness(0.95);
+    height: 100%;
+    margin-top: 20px;
+}
+
+.doctor-info {
+    text-align: center;
+}
+
+.doctor-info p {
+    text-transform: capitalize;
+    color: #666;
+}
+.doctor-info p:hover{
+    color: #5c9963;
+}
+.doctor-info span{
+    color: #666;
+    margin: 0 5px;
+}
+
+.doctor-info h2{
+    color: #5c9963;
+}
+
+.doctor-info button {
+    background: transparent;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 8px 0;
+    width: 100%;
+    border: 1px solid #d3d3d3bd;
+    border-radius: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.stars {
+    display: flex;
+    justify-content: center;
+    color: #f5b400;
+    font-size: 8px;
+    margin-bottom: 8px;
+}
+
+.icon{
+    margin-right: 5px;
+    color: #5c9963;
+}
+
+.reviews span{
+    margin-right: 5px;
+    color: #5c9963;
+}
+
+.doctor:hover .doctor-info button,.doctor:hover .icon{
+    background-color: #5c9963;
+    color: #fff;
+}
