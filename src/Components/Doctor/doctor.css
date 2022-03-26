@@ -70,15 +70,15 @@
 
 .icon{
     margin-right: 5px;
-    color: #5c9963;
+    color: #0068dfd3;
 }
 
 .reviews span{
     margin-right: 5px;
-    color: #5c9963;
+    color: #0068dfd3;
 }
 
 .doctor:hover .doctor-info button,.doctor:hover .icon{
-    background-color: #5c9963;
+    background-color: #0068dfd3;
     color: #fff;
 }

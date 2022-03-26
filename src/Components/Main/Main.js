@@ -38,8 +38,9 @@ const Main = () => {
         setCamps([]);
     }
     return (
-        <div className="main-container">
-            <div className="doctors-container">
+        <div className=" container">
+           <div className="row">
+           <div className="doctors-container col-md-9 col-sm-12">
             {
                 // call doctor component
                 doctors.map(doctor => <Doctor
@@ -48,13 +49,14 @@ const Main = () => {
                     doctor={doctor}></Doctor>)
             }
             </div>
-            <div>
+            <div className='col-md-3 col-sm-12'>
                 {/* call camp componet */}
                 <Camp 
                 selectRandom={selectRandom}  
                 chooseAgain={chooseAgain}  
                 camps={camps}></Camp>
             </div>
+           </div>
         </div>
     );
 };
