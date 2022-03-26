@@ -3,21 +3,24 @@ import './camp.css';
 
 const Camp = (props) => {
     const camps = props.camp;
-    // console.log(camps)
+    console.log(camps);
+    // const [doctors, setDoctors] =useState([]);
+    // setDoctors(camps);
+    // console.log(doctors);
     const campList = [];
-    // create a new array using for loop.
     for(const camp of camps){
-        campList.push(camp.name);
+        campList.push(camp);
     }
 
-    const selectRandom = () => {
-        const randomNum = parseInt(Math.random()*13);
-        console.log(randomNum)
-        const selectedItem = camps.find(item => {
-            console.log(item);
-        })
-        // console.log(selectedItem);
-    }
+    // const selectRandom = () => {
+    //     const randomNum = parseInt(Math.random()*13);
+    //     console.log(randomNum)
+    //     const selectedItem = camps.find(item => randomNum === item.id);
+    //     if(!selectedItem){
+    //         selectRandom();
+    //     }
+    //     console.log(selectedItem);
+    // }
     return (
         <div className="doctors-camp">
             {/* camp section start */}
@@ -26,19 +29,19 @@ const Camp = (props) => {
                 <ul>
                     {
                         // call Li components for show doctors name
-                        campList.map(name => <Li name={name}></Li>)
+                        campList.map(doctor => <Li doctor={doctor}></Li>)
                     }
                 </ul>
             </div>
-            <button onClick={()=> selectRandom()}>Select Random One</button>
+            {/* <button onClick={()=> selectRandom()}>Select Random One</button> */}
         </div>
     );
 };
 
 // declare a new componets for show doctor name
-const Li = props => {
+const Li = ({doctor}) => {
     return (
-        <li>{props.name}</li>
+        <li>{doctor.name}</li>
     )
 }
 

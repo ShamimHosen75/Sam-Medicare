@@ -7,6 +7,7 @@ const Main = () => {
     // declare state
     const [doctors, setDoctors] = useState([]);
     const [camps, setCamps] = useState([]);
+    // console.log(camps);
 
     // declare add to camp function
     const addToCamp = id => {
