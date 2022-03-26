@@ -2,6 +2,7 @@
 .doctor{
     padding: 16px;
     border-radius: 20px;
+    border: 1px solid #999;
 }
 .doctor:hover{
     box-shadow: 0 0 24px rgb(0 0 0 / 10%);
