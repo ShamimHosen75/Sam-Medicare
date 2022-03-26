@@ -1,5 +1,6 @@
 /* doctor card styleSheet */
 .doctor{
+    margin-top: 20px;
     padding: 16px;
     border-radius: 20px;
     border: 1px solid #999;

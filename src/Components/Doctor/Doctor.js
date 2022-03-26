@@ -8,7 +8,7 @@ const Doctor = (props) => {
     // destructuring props
     const {id, name, nationality, salary, age, degree, image } = props.doctor;
     return (
-        <div>
+        <div className='col-md-4 col-sm-12'>
             {/* doctor card section start */}
             <div className="doctor">
                 <div className="doctor-img">

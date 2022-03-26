@@ -1,7 +1,27 @@
 /* Header style sheet */
+.header {
+    height: 80px;
+    background-color: #2C82E5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
 .flex{
     background-color: #0068dfd3;
     border-bottom: 1px solid #d3d3d340;
+}
+.header a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 36px;
+}
+.header h2{
+    color: #FFFFFF;
+}
+.header a:hover {
+    color: rgb(255, 230, 2);
 }
 
 /* logo styleSheet start */

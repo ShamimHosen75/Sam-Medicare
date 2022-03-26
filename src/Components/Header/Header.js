@@ -18,20 +18,14 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" href="#">Home</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="#">Doctors</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" >Specialist</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Blog</a>
-              </li>
-            </ul>
+            <div className=" header navbar-nav ms-auto mb-2 mb-lg-0">
+            <a href="/home">Home</a>
+                <a href="/doctors">Doctors</a>
+                <a href="/specialist">Specialist</a>
+                <a href="/blog">Blog</a>
+                <a href="/contact">Contact</a>
+            </div>
+            
           </div>
         </div>
       </nav>
